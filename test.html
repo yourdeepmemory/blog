@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
+	<title>个人中心</title>
+	<link rel="stylesheet" href="">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/personal.css">
+	<script type="text/javascript" src="./js/jquery-3.2.1.js"></script>
+	<script src="./js/personal.js" type="text/javascript" charset="utf-8"></script>
+	
+</head>
+<body>
+
+		<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="navbar-header text-center">
+					<h3>简读<i id="popover" class="fa fa-plus" aria-hidden="true"></i></h3>
+				</div>
+		</nav>
+		<!-- 底部导航栏 -->
+		<nav class="navbar navbar-default navbar-fixed-bottom">
+			<div class="row text-center">
+				<div id="home-link" class="nav-tab col-sm-4 col-md-4 col-xs-4">
+					<img src="./icons/book.png" alt="" width="28px">
+					<p>简读</p>
+				</div>
+				<div id="ex-link" class="nav-tab col-sm-4 col-md-4 col-xs-4">
+				  <img src="./icons/all.png" alt="" width="28px">
+					<p>广场</p>
+				</div>
+				<div id="per-link" class="nav-tab col-sm-4 col-md-4 col-xs-4 active">
+					<img src="./icons/personal1.png" alt="" width="28px">
+					<p>我的</p>
+				</div>
+			</div>
+		</nav>
+	
+	<div class="container">
+		<div style="width: 100px;height: 100px;margin: 4em auto 4em auto">
+	        <img class="img-responsive img-circle img-thumbnail" id="icon" src="./img/header.png" alt="头像"/>
+	        <p class="text-center" ><span id="name">点头像登陆</span></p>
+	        <p class="text-center" ><span id="id"></span></p>
+	 	</div>
+	</div>
+	<div class="bod">
+		<div class="row">
+	    <div class="col-xs-3">
+	        <a href="./read.html" class="thumbnail">
+				<img src="./img/new-book2.png" alt="">
+	           <!--  <i class=" icon-book icon-2x" alt="共读"></i> -->
+	            <p>共读</p>
+	        </a>
+	    </div>
+	    <div class="col-xs-3">
+	        <a href="./booklist.html" class="thumbnail">
+	        <img src="./img/new-book.png" alt="">
+	        
+	            <!-- <i class="icon-bookmark icon-2x" alt="书单"></i> -->
+	            <p>书单</p>
+	        </a>
+	    </div>
+	    <div class="col-xs-3">
+	        <a href="./collection.html" class="thumbnail">
+	        	<img src="./img/collect.png" alt="">
+	            <!-- <i class="icon-heart icon-2x" alt="收藏"></i> -->
+	            <p>收藏</p>
+	        </a>
+	    </div>
+	    <div class="col-xs-3">
+	        <a href="./essay.html" class="thumbnail">
+	        	<img src="./img/write.png" alt="">
+	           <!--  <i class="icon-edit icon-2x" alt="随笔"></i> -->
+	            <p>随笔</p>
+	        </a>
+	    </div>
+	</div>
+	</div>
+	
+
+	<div class="footer">
+		<div class="col-xs-12">
+	        <a href="./setup.html" class="thumbnail">
+	            <p>账户设置﹥</p>
+	        </a>
+	    </div>
+	    <div class="col-xs-12">
+	        <a href="./feedback.html" class="thumbnail">
+	            <p>客服中心﹥</p>
+	        </a>
+	    </div>
+	    <div class="footer-admin" style="display:none" id="footer-admin">
+	    	<div class="col-xs-12" id="one">
+		        <a class="thumbnail">
+		            <p>录入书籍﹥</p>
+		        </a>
+		    </div>
+		    <div class="col-xs-12" id="two">
+		        <a class="thumbnail">
+		            <p>录入日推﹥</p>
+		        </a>
+		    </div>
+		    <div class="col-xs-12" id="three">
+		        <a class="thumbnail">
+		            <p>录入诗歌﹥</p>
+		        </a>
+		    </div>
+		    <div class="col-xs-12" id="four">
+		        <a class="thumbnail">
+		            <p>更改时间﹥</p>
+		        </a>
+		    </div>
+	    </div>
+	    
+	</div>
+		
+</body>
+</html>
